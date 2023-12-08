@@ -1,0 +1,90 @@
+.header-bg {
+  background: var(--cor-1);
+}
+
+.header-bg-2 {
+  background: var(--cor-2);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0px;
+}
+
+.header-contato {
+  display: flex;
+  gap: 25px;
+
+  font-family: "DM sans";
+  color: var(--cor-2);
+  font-size: 1rem;
+}
+
+.header-contato img {
+  margin-right: -12px;
+}
+
+.header-sociais {
+  display: flex;
+  gap: 8px !important;
+}
+
+.header-secundario {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-secundario p {
+  justify-self: left;
+}
+
+.header-secundario-menu {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.header-secundario-menu a {
+  font-family: "DM sans";
+  font-weight: 500;
+  color: var(--cor-3);
+  padding: 4px 16px;
+}
+
+.header-secundario-menu a:hover {
+  background: var(--cor-5);
+  border-radius: 34px;
+}
+
+.header-secundario p {
+  font: italic 600 2.625rem "Playfair Display";
+
+  /*font-family: "Playfair Display";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 2.625rem; */
+}
+
+.header-secundario > a {
+  font: normal 700 1rem "DM Sans";
+  color: var(--cor-3);
+  padding: 12px 24px;
+  border: 1.5px solid var(--cor-3);
+  border-radius: 118px;
+}
+
+.header-secundario > a:hover {
+  background: var(--cor-5);
+  border-color: var(--cor-1);
+}
