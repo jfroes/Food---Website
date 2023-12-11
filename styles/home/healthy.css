@@ -1,0 +1,54 @@
+.healthy-bg {
+  background: var(--cor-2);
+}
+
+.healthy {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 180px;
+  padding: 120px 0px;
+  align-items: center;
+  position: relative;
+}
+
+.healthy img {
+  border-radius: 12px;
+}
+
+.healthy-card-cinza {
+  color: var(--cor-8);
+  background: var(--cor-1);
+  padding: 50px;
+  border-radius: 12px;
+  width: 280px;
+  position: absolute;
+  left: 180px;
+  bottom: 70px;
+}
+
+.healthy-card-cinza img {
+  width: 24px;
+}
+.healthy-card-cinza li {
+  display: flex;
+  gap: 20px;
+}
+
+.healthy-card-cinza li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.healthy-card-cinza h3 {
+  margin-bottom: 40px;
+}
+
+.healthy-info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  place-items: start;
+}
+
+.healthy-info a {
+  margin-top: 20px;
+}
