@@ -1,4 +1,10 @@
 /*Gobal*/
 @import "/styles/global.css";
+@import "/styles/colors.css";
+
+/*Components*/
+@import "/styles/components.css";
+
+/*Home*/
 @import "/styles/home/header.css";
-@import "/styles/colors.css"; /*Home*/
+@import "/styles/home/banner.css";

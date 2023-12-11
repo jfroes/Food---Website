@@ -1,0 +1,22 @@
+.banner-bg {
+  background: url("/img/image\ 110.png") lightgray 50% / cover no-repeat;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 32px;
+  padding-top: 190px;
+  padding-bottom: 190px;
+}
+
+.banner p {
+  margin-bottom: 7px;
+}
+
+.banner a {
+  display: inline-block;
+  margin-left: 10px;
+}

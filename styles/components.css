@@ -1,0 +1,58 @@
+/* botoes */
+
+.botao-vazado {
+  font: normal 700 1rem "DM Sans";
+  display: block;
+  color: var(--cor-3);
+  padding: 20px 32px;
+  border: 1.5px solid var(--cor-3);
+  border-radius: 118px;
+}
+
+.botao-vazado:hover {
+  background: var(--cor-5);
+  border-color: var(--cor-1);
+}
+
+.botao-vermelho {
+  font: normal 700 1rem "DM Sans";
+  display: block;
+  background: var(--cor-6);
+  color: var(--cor-8);
+  padding: 20px 32px;
+  border: 1.5px solid var(--cor-6);
+  border-radius: 118px;
+}
+
+.botao-vermelho:hover {
+  background: var(--cor-7);
+  border-color: var(--cor-7);
+}
+
+/*Titulos*/
+
+.titulo-grande {
+  font: normal 400 6.25rem/6rem "Playfair Display", "Times New Roman";
+}
+
+/*Textos*/
+
+.texto-20 {
+  font: normal 400 1.25rem/2rem "DM sans", sans-serif;
+}
+
+.texto-20-heavy {
+  font: normal 500 1.25rem/2rem "DM sans", sans-serif;
+}
+
+.texto-18 {
+  font: normal 400 1.125rem/1.75rem "DM sans", sans-serif;
+}
+
+.texto-18-heavy {
+  font: normal 500 1.125rem/1.75rem "DM sans", sans-serif;
+}
+
+.texto-16 {
+  font: normal 400 1rem/1.5rem "DM sans", sans-serif;
+}

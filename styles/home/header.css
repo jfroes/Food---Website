@@ -8,6 +8,7 @@
 
 .header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 8px 0px;
@@ -15,6 +16,8 @@
 
 .header-contato {
   display: flex;
+  flex-wrap: wrap;
+
   gap: 25px;
 
   font-family: "DM sans";
@@ -33,6 +36,7 @@
 
 .header-secundario {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding-top: 30px;
@@ -41,6 +45,7 @@
 
 .header-logo {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 10px;
 }
@@ -51,8 +56,8 @@
 
 .header-secundario-menu {
   display: flex;
-  gap: 8px;
   flex-wrap: wrap;
+  gap: 8px;
 }
 
 .header-secundario-menu a {
@@ -75,7 +80,7 @@
   font-weight: 600;
   font-size: 2.625rem; */
 }
-
+/*
 .header-secundario > a {
   font: normal 700 1rem "DM Sans";
   color: var(--cor-3);
@@ -87,4 +92,4 @@
 .header-secundario > a:hover {
   background: var(--cor-5);
   border-color: var(--cor-1);
-}
+} */
