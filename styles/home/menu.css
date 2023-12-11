@@ -1,0 +1,41 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 92px;
+  padding-top: 92px;
+  padding-bottom: 92px;
+}
+
+.menu-nav {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 0px 24px;
+}
+
+.menu-nav li img {
+  width: 100px;
+}
+
+.menu-nav li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.menu-nav li {
+  border: 1.5px solid var(--cor-5);
+  border-radius: 12px;
+  padding: 40px 34px 32px 40px;
+}
+
+.menu-nav li a {
+  font: normal 700 1rem/1.5rem "DM sans", sans-serif;
+  color: var(--cor-6);
+}
+
+.menu-nav li a:hover {
+  color: var(--cor-7);
+}
