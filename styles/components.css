@@ -1,3 +1,7 @@
+root {
+  --fonte-16: normal 400 1rem/1.5rem "DM sans", sans-serif;
+}
+
 /* botoes */
 
 .botao-vazado {
@@ -39,6 +43,10 @@
   font: normal 500 3.4375rem/3.75rem "Playfair Display", "Times New Roman";
 }
 
+.titulo-medio-s {
+  font: italic 600 2rem/1.8125rem "Playfair Display", "Times New Roman";
+}
+
 .sub-titulo {
   font: normal 500 1.5rem/1.875rem "DM sans", sans-serif;
 }
@@ -67,4 +75,8 @@
 
 .texto-16 {
   font: normal 400 1rem/1.5rem "DM sans", sans-serif;
+}
+
+.texto-16-heavy {
+  font: normal 700 1rem/1.5rem "DM sans", sans-serif;
 }

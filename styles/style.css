@@ -1,12 +1,14 @@
 /*Gobal*/
 @import "/styles/global.css";
 @import "/styles/colors.css";
+@import "/styles/header.css";
+@import "/styles/footer.css";
 
-/*Components*/
+/* Components */
 @import "/styles/components.css";
 
 /*Home*/
-@import "/styles/home/header.css";
+
 @import "/styles/home/banner.css";
 @import "/styles/home/menu.css";
 @import "/styles/home/healthy.css";

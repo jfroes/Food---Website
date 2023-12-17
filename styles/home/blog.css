@@ -21,6 +21,8 @@
 .blog-grid-item img {
   width: 100%;
   border-radius: 12px 12px 0px 0px;
+  object-fit: cover;
+  object-position: top right;
 }
 
 .blog-titulo {
