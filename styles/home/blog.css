@@ -11,18 +11,23 @@
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   gap: 20px;
-  justify-items: center;
 }
 
-.blog-grid-item:nth-child(1) {
-  grid-row: 1 / 3;
+.blog-grid-item {
+  display: grid;
+  gap: 0px;
 }
 
 .blog-grid-item img {
   width: 100%;
+  height: 100%;
   border-radius: 12px 12px 0px 0px;
   object-fit: cover;
-  object-position: top right;
+  object-position: center right;
+}
+
+.blog-grid-item:nth-child(1) {
+  grid-row: 1 / 3;
 }
 
 .blog-titulo {
